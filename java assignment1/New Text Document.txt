@@ -1,0 +1,32 @@
+
+
+
+public class Problem7{
+
+	public static void main(String[] args){
+
+	int [] a= new int[] {1,2,3,4,5};
+	
+	evensum(a);
+}
+
+
+
+public static void evensum(int[] x)
+
+{
+ 	int i,sum=0;
+		for(i=0;i<x.length;i++)
+		{
+			if(x[i]%2 == 0)
+			sum=sum+x[i];
+		}
+	
+	System.out.println(sum);
+
+	
+
+
+}
+
+}
